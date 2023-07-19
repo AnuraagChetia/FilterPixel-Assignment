@@ -1,0 +1,22 @@
+.navs {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.navLink {
+  display: block;
+  padding: 2%;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.navLink.active {
+  color: black;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 100px 100px 0 0;
+}

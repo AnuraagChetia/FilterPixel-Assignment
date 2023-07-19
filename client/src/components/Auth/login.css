@@ -1,0 +1,49 @@
+.loginContainer {
+  display: flex;
+  height: 80vh;
+  place-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.login {
+  display: flex;
+  border: 1px solid rgba(220, 220, 220, 0.192);
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 0px 0px 50px 23px rgba(219, 212, 219, 0.116);
+}
+.title {
+  font-style: italic;
+  letter-spacing: 5px;
+  font-family: "Dancing Script", cursive;
+  margin: 2rem 3% 6rem 3%;
+}
+.gButton {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(117, 14, 14);
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 1rem;
+}
+.or {
+  display: flex;
+  width: 70%;
+  margin: 2rem auto;
+}
+.hr {
+  width: 100%;
+  margin: auto 10px;
+  background-color: rgb(216, 203, 203);
+}
+.loginInput {
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+}

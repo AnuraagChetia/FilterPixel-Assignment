@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.brandLogo {
+  margin: 0;
+}
+.pfButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pfButton:hover {
+  border-color: black;
+}
+.pfp {
+  height: auto;
+  border-radius: 50%;
+  width: 30px;
+}
+.logout {
+  background-color: rgb(70, 4, 4);
+}
+.logout:hover {
+  background-color: rgb(109, 7, 7);
+  border-color: black;
+}
+.hidden {
+  visibility: hidden;
+}
+@media screen and (max-width: 768px) {
+  .brandLogo {
+    max-width: 150px;
+  }
+  .nameSpan {
+    display: none;
+  }
+}
